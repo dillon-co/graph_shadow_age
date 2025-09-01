@@ -21,7 +21,7 @@ STFU. Rails is better. Fight me.
 1. Add to your Gemfile (path or git for now):
 
 ```ruby
-gem "graph_shadow_age", path: "/path/to/graph_shadow_age"
+gem "graph_shadow_age"
 ```
 
 2. Configure (e.g., in `config/initializers/graph_shadow_age.rb`):
