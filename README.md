@@ -3,6 +3,16 @@
 A tiny proof-of-concept gem that derives a graph schema from your Rails models and mirrors your relational data into
 an Apache AGE graph inside the same Postgres database.
 
+## The Motivation & Goal
+
+(Pepur)[www.pepur.xyz] is an LLM assisted event platform that leverages A.I. for coordinating all different parts of events (events, attendees, sponsors, venues, staff) 
+working with SQL and vector databases with LLM querys is extremely limited and forces the developer to manually add specific functions for searching connections between nodes. 
+
+Though SQL is still usseful and necessary, adding the ability for an LLM to search a knowledgegraph of your sql database unlocks a lot of potential.
+
+### But why not just use python?
+STFU. Rails is better. Fight me.
+
 > **Status**: PoC. Not production safe; interpolation is simplistic and aiming for learn-by-doing.
 
 ## Quick start
