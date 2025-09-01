@@ -5,8 +5,9 @@ an Apache AGE graph inside the same Postgres database.
 
 ## The Motivation & Goal
 
-(Pepur)[www.pepur.xyz] is an LLM assisted event platform that leverages A.I. for coordinating all different parts of events (events, attendees, sponsors, venues, staff) 
+[Pepur](www.pepur.xyz) is an LLM assisted event platform that leverages A.I. for coordinating all different parts of events (events, attendees, sponsors, venues, staff) 
 working with SQL and vector databases with LLM querys is extremely limited and forces the developer to manually add specific functions for searching connections between nodes. 
+We need a better solution for LLM understanding, but rather than maintain a new database, why not just auto convert your existing sql to graph on the fly? 
 
 Though SQL is still usseful and necessary, adding the ability for an LLM to search a knowledgegraph of your sql database unlocks a lot of potential.
 
